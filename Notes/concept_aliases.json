@@ -1,0 +1,296 @@
+[
+  {
+    "canonical": "retrieval_augmented_generation",
+    "label": "retrieval augmented generation (RAG)",
+    "aliases": [
+      "rag",
+      "retrieval augmented generation"
+    ],
+    "frequency": 72,
+    "confidence": 1.0
+  },
+  {
+    "canonical": "guardrails",
+    "label": "guardrails",
+    "aliases": [],
+    "frequency": 31,
+    "confidence": 0.75
+  },
+  {
+    "canonical": "knowledge_base",
+    "label": "knowledge base",
+    "aliases": [
+      "knowledge base",
+      "knowledge base retrieval"
+    ],
+    "frequency": 27,
+    "confidence": 0.72
+  },
+  {
+    "canonical": "security",
+    "label": "security",
+    "aliases": [],
+    "frequency": 27,
+    "confidence": 0.7
+  },
+  {
+    "canonical": "serverless",
+    "label": "serverless",
+    "aliases": [],
+    "frequency": 27,
+    "confidence": 0.69
+  },
+  {
+    "canonical": "compliance",
+    "label": "compliance",
+    "aliases": [],
+    "frequency": 26,
+    "confidence": 0.69
+  },
+  {
+    "canonical": "governance",
+    "label": "governance",
+    "aliases": [],
+    "frequency": 25,
+    "confidence": 0.7
+  },
+  {
+    "canonical": "observability",
+    "label": "observability",
+    "aliases": [],
+    "frequency": 21,
+    "confidence": 0.66
+  },
+  {
+    "canonical": "monitoring",
+    "label": "monitoring",
+    "aliases": [],
+    "frequency": 20,
+    "confidence": 0.66
+  },
+  {
+    "canonical": "model_evaluation",
+    "label": "model evaluation",
+    "aliases": [
+      "evaluation",
+      "eval",
+      "model eval"
+    ],
+    "frequency": 19,
+    "confidence": 0.66
+  },
+  {
+    "canonical": "validation",
+    "label": "validation",
+    "aliases": [],
+    "frequency": 19,
+    "confidence": 0.66
+  },
+  {
+    "canonical": "vector_store",
+    "label": "vector store",
+    "aliases": [
+      "vector database",
+      "vector db",
+      "vector store"
+    ],
+    "frequency": 16,
+    "confidence": 0.64
+  },
+  {
+    "canonical": "vector_search",
+    "label": "vector search",
+    "aliases": [],
+    "frequency": 15,
+    "confidence": 0.58
+  },
+  {
+    "canonical": "memory",
+    "label": "memory",
+    "aliases": [],
+    "frequency": 14,
+    "confidence": 0.52
+  },
+  {
+    "canonical": "troubleshooting",
+    "label": "troubleshooting",
+    "aliases": [],
+    "frequency": 13,
+    "confidence": 0.56
+  },
+  {
+    "canonical": "cost_optimization",
+    "label": "cost optimization",
+    "aliases": [],
+    "frequency": 10,
+    "confidence": 0.52
+  },
+  {
+    "canonical": "model_routing",
+    "label": "model routing",
+    "aliases": [],
+    "frequency": 9,
+    "confidence": 0.43
+  },
+  {
+    "canonical": "model_selection",
+    "label": "model selection",
+    "aliases": [],
+    "frequency": 9,
+    "confidence": 0.52
+  },
+  {
+    "canonical": "event_driven_architecture",
+    "label": "event-driven architecture",
+    "aliases": [],
+    "frequency": 8,
+    "confidence": 0.51
+  },
+  {
+    "canonical": "prompt_management",
+    "label": "prompt management",
+    "aliases": [],
+    "frequency": 7,
+    "confidence": 0.51
+  },
+  {
+    "canonical": "response_streaming",
+    "label": "response streaming",
+    "aliases": [
+      "streaming responses",
+      "response streaming"
+    ],
+    "frequency": 7,
+    "confidence": 0.51
+  },
+  {
+    "canonical": "ci_cd",
+    "label": "CI/CD",
+    "aliases": [
+      "ci/cd",
+      "continuous integration",
+      "continuous delivery"
+    ],
+    "frequency": 6,
+    "confidence": 0.5
+  },
+  {
+    "canonical": "cross_region_inference",
+    "label": "cross-region inference",
+    "aliases": [],
+    "frequency": 6,
+    "confidence": 0.35
+  },
+  {
+    "canonical": "agentic_ai",
+    "label": "agentic ai",
+    "aliases": [],
+    "frequency": 5,
+    "confidence": 0.51
+  },
+  {
+    "canonical": "multi_agent",
+    "label": "multi-agent",
+    "aliases": [],
+    "frequency": 5,
+    "confidence": 0.47
+  },
+  {
+    "canonical": "performance_optimization",
+    "label": "performance optimization",
+    "aliases": [],
+    "frequency": 5,
+    "confidence": 0.46
+  },
+  {
+    "canonical": "prompt_engineering",
+    "label": "prompt engineering",
+    "aliases": [],
+    "frequency": 5,
+    "confidence": 0.51
+  },
+  {
+    "canonical": "foundation_model_integration",
+    "label": "foundation model integration",
+    "aliases": [],
+    "frequency": 4,
+    "confidence": 0.29
+  },
+  {
+    "canonical": "circuit_breaker",
+    "label": "circuit breaker",
+    "aliases": [],
+    "frequency": 3,
+    "confidence": 0.28
+  },
+  {
+    "canonical": "prompt_chaining",
+    "label": "prompt chaining",
+    "aliases": [],
+    "frequency": 3,
+    "confidence": 0.28
+  },
+  {
+    "canonical": "responsible_ai",
+    "label": "responsible ai",
+    "aliases": [],
+    "frequency": 3,
+    "confidence": 0.41
+  },
+  {
+    "canonical": "semantic_retrieval",
+    "label": "semantic retrieval",
+    "aliases": [],
+    "frequency": 3,
+    "confidence": 0.27
+  },
+  {
+    "canonical": "api_design",
+    "label": "api design",
+    "aliases": [],
+    "frequency": 2,
+    "confidence": 0.31
+  },
+  {
+    "canonical": "agent_orchestration",
+    "label": "agent orchestration",
+    "aliases": [],
+    "frequency": 1,
+    "confidence": 0.07
+  },
+  {
+    "canonical": "graceful_degradation",
+    "label": "graceful degradation",
+    "aliases": [],
+    "frequency": 1,
+    "confidence": 0.21
+  },
+  {
+    "canonical": "latency_optimization",
+    "label": "latency optimization",
+    "aliases": [],
+    "frequency": 1,
+    "confidence": 0.09
+  },
+  {
+    "canonical": "long_term_memory",
+    "label": "long-term memory",
+    "aliases": [],
+    "frequency": 1,
+    "confidence": 0.07
+  },
+  {
+    "canonical": "provider_switching",
+    "label": "provider switching",
+    "aliases": [],
+    "frequency": 1,
+    "confidence": 0.21
+  },
+  {
+    "canonical": "session_memory",
+    "label": "session memory",
+    "aliases": [],
+    "frequency": 1,
+    "confidence": 0.07
+  }
+]

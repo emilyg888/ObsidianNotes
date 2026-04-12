@@ -1,0 +1,14 @@
+Split the following text into coherent semantic chunks.
+
+Rules:
+- Keep related ideas together
+- Do NOT split question + explanation
+- Each chunk should be independently understandable
+- Return JSON list
+- Each item must use keys: text, concepts, components, patterns
+- concepts should be abstract ideas or capabilities
+- components should be concrete services, tools, or systems
+- patterns should be reusable architecture or workflow patterns
+
+Text:
+...

@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+**/.obsidian/workspace.json
+Notes/.obsidian/
+
+Notes/concept_embeddings.npy
+Notes/qwen_batch_payloads.jsonl

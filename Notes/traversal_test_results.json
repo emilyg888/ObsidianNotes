@@ -1,0 +1,612 @@
+[
+  {
+    "query": "How should I build RAG on AWS?",
+    "mode": "traversal",
+    "seed_matches": [
+      {
+        "node_id": "retrieval_augmented_generation",
+        "label": "retrieval augmented generation (RAG)",
+        "type": "concept",
+        "score": 0.95,
+        "reasons": [
+          "alias phrase match: rag"
+        ]
+      },
+      {
+        "node_id": "retrieval_augmented_generation_rag",
+        "label": "Retrieval Augmented Generation",
+        "type": "pattern",
+        "score": 0.95,
+        "reasons": [
+          "alias phrase match: rag"
+        ]
+      }
+    ],
+    "top_results": {
+      "concepts": [
+        {
+          "node_id": "retrieval_augmented_generation",
+          "label": "retrieval augmented generation (RAG)",
+          "type": "concept",
+          "score": 6.3874,
+          "confidence": 1.0
+        },
+        {
+          "node_id": "guardrails",
+          "label": "guardrails",
+          "type": "concept",
+          "score": 4.7951,
+          "confidence": 0.75
+        },
+        {
+          "node_id": "knowledge_base",
+          "label": "knowledge base",
+          "type": "concept",
+          "score": 4.5002,
+          "confidence": 0.72
+        },
+        {
+          "node_id": "governance",
+          "label": "governance",
+          "type": "concept",
+          "score": 4.2356,
+          "confidence": 0.7
+        },
+        {
+          "node_id": "security",
+          "label": "security",
+          "type": "concept",
+          "score": 3.9824,
+          "confidence": 0.7
+        }
+      ],
+      "patterns": [
+        {
+          "node_id": "retrieval_augmented_generation_rag",
+          "label": "Retrieval Augmented Generation",
+          "type": "pattern",
+          "score": 6.3873,
+          "confidence": 1.0
+        },
+        {
+          "node_id": "vector_search",
+          "label": "Vector Search",
+          "type": "pattern",
+          "score": 1.2305,
+          "confidence": 0.21
+        },
+        {
+          "node_id": "model_routing",
+          "label": "Model Routing",
+          "type": "pattern",
+          "score": 0.8301,
+          "confidence": 0.12
+        },
+        {
+          "node_id": "event_driven_architecture",
+          "label": "Event-Driven Architecture",
+          "type": "pattern",
+          "score": 0.4704,
+          "confidence": 0.11
+        },
+        {
+          "node_id": "websocket_api",
+          "label": "WebSocket Streaming",
+          "type": "pattern",
+          "score": 0.3301,
+          "confidence": 0.18
+        }
+      ],
+      "components": [
+        {
+          "node_id": "aws_lambda",
+          "label": "AWS Lambda",
+          "type": "component",
+          "score": 8.6322,
+          "confidence": null
+        },
+        {
+          "node_id": "amazon_opensearch_service",
+          "label": "Amazon OpenSearch Service",
+          "type": "component",
+          "score": 7.4678,
+          "confidence": null
+        },
+        {
+          "node_id": "amazon_api_gateway",
+          "label": "Amazon API Gateway",
+          "type": "component",
+          "score": 7.1694,
+          "confidence": null
+        },
+        {
+          "node_id": "amazon_bedrock",
+          "label": "Amazon Bedrock",
+          "type": "component",
+          "score": 6.4112,
+          "confidence": null
+        },
+        {
+          "node_id": "amazon_cloudwatch",
+          "label": "Amazon CloudWatch",
+          "type": "component",
+          "score": 6.0717,
+          "confidence": null
+        }
+      ]
+    },
+    "paths": [
+      {
+        "target": "AWS Lambda",
+        "target_type": "component",
+        "score": 0.5928,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "AWS Lambda"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "AWS Lambda",
+            "type": "uses",
+            "direction": "forward",
+            "confidence": 0.78,
+            "evidence_count": 49,
+            "source_diversity": 5,
+            "explanation": "Retrieval Augmented Generation uses AWS Lambda"
+          }
+        ]
+      },
+      {
+        "target": "Amazon OpenSearch Service",
+        "target_type": "component",
+        "score": 0.4712,
+        "path_labels": [
+          "retrieval augmented generation (RAG)",
+          "Amazon OpenSearch Service"
+        ],
+        "path_steps": [
+          {
+            "from": "retrieval augmented generation (RAG)",
+            "to": "Amazon OpenSearch Service",
+            "type": "implemented_by",
+            "direction": "forward",
+            "confidence": 0.62,
+            "evidence_count": 33,
+            "source_diversity": 5,
+            "explanation": "retrieval augmented generation (RAG) is implemented by Amazon OpenSearch Service"
+          }
+        ]
+      },
+      {
+        "target": "Amazon API Gateway",
+        "target_type": "component",
+        "score": 0.4256,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "Amazon API Gateway"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "Amazon API Gateway",
+            "type": "uses",
+            "direction": "forward",
+            "confidence": 0.56,
+            "evidence_count": 27,
+            "source_diversity": 5,
+            "explanation": "Retrieval Augmented Generation uses Amazon API Gateway"
+          }
+        ]
+      },
+      {
+        "target": "Amazon Bedrock",
+        "target_type": "component",
+        "score": 0.4864,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "Amazon Bedrock"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "Amazon Bedrock",
+            "type": "uses",
+            "direction": "forward",
+            "confidence": 0.64,
+            "evidence_count": 47,
+            "source_diversity": 3,
+            "explanation": "Retrieval Augmented Generation uses Amazon Bedrock"
+          }
+        ]
+      },
+      {
+        "target": "Amazon CloudWatch",
+        "target_type": "component",
+        "score": 0.3876,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "Amazon CloudWatch"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "Amazon CloudWatch",
+            "type": "uses",
+            "direction": "forward",
+            "confidence": 0.51,
+            "evidence_count": 22,
+            "source_diversity": 5,
+            "explanation": "Retrieval Augmented Generation uses Amazon CloudWatch"
+          }
+        ]
+      },
+      {
+        "target": "Amazon S3",
+        "target_type": "component",
+        "score": 0.342,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "Amazon S3"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "Amazon S3",
+            "type": "uses",
+            "direction": "forward",
+            "confidence": 0.45,
+            "evidence_count": 22,
+            "source_diversity": 4,
+            "explanation": "Retrieval Augmented Generation uses Amazon S3"
+          }
+        ]
+      },
+      {
+        "target": "guardrails",
+        "target_type": "concept",
+        "score": 0.3848,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "guardrails"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "guardrails",
+            "type": "realized_as",
+            "direction": "reverse",
+            "confidence": 0.54,
+            "evidence_count": 25,
+            "source_diversity": 5,
+            "explanation": "Retrieval Augmented Generation realizes guardrails"
+          }
+        ]
+      },
+      {
+        "target": "knowledge base",
+        "target_type": "concept",
+        "score": 0.3694,
+        "path_labels": [
+          "Retrieval Augmented Generation",
+          "knowledge base"
+        ],
+        "path_steps": [
+          {
+            "from": "Retrieval Augmented Generation",
+            "to": "knowledge base",
+            "type": "realized_as",
+            "direction": "reverse",
+            "confidence": 0.54,
+            "evidence_count": 25,
+            "source_diversity": 5,
+            "explanation": "Retrieval Augmented Generation realizes knowledge base"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "When should I use WebSocket API instead of REST API?",
+    "mode": "comparison",
+    "seed_matches": [
+      {
+        "node_id": "websocket_api",
+        "label": "WebSocket Streaming",
+        "type": "pattern",
+        "score": 0.171,
+        "reasons": [
+          "alias phrase match: websocket",
+          "alias phrase match: websocket api"
+        ]
+      },
+      {
+        "node_id": "rest_api",
+        "label": "REST API Integration",
+        "type": "pattern",
+        "score": 0.114,
+        "reasons": [
+          "alias phrase match: rest api"
+        ]
+      }
+    ],
+    "concept_a": {
+      "node_id": "websocket_api",
+      "label": "WebSocket Streaming",
+      "type": "pattern",
+      "score": 0.171
+    },
+    "concept_b": {
+      "node_id": "rest_api",
+      "label": "REST API Integration",
+      "type": "pattern",
+      "score": 0.114
+    },
+    "direct_relationships": [
+      {
+        "type": "contrasts_with",
+        "from": "WebSocket Streaming",
+        "to": "REST API Integration",
+        "confidence": 0.85,
+        "evidence_count": 5,
+        "source_diversity": 2
+      },
+      {
+        "type": "tradeoff",
+        "from": "WebSocket Streaming",
+        "to": "REST API Integration",
+        "confidence": 0.85,
+        "evidence_count": 5,
+        "source_diversity": 2,
+        "dimensions": {
+          "real_time": "WebSocket Streaming",
+          "bidirectional": "WebSocket Streaming",
+          "simplicity": "REST API Integration",
+          "request_response": "REST API Integration"
+        }
+      }
+    ],
+    "shared_components": [
+      {
+        "node_id": "aws_lambda",
+        "label": "AWS Lambda",
+        "confidence": 0.29,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "amazon_api_gateway",
+        "label": "Amazon API Gateway",
+        "confidence": 0.29,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "amazon_bedrock",
+        "label": "Amazon Bedrock",
+        "confidence": 0.25,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "aws_step_functions",
+        "label": "AWS Step Functions",
+        "confidence": 0.24,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "amazon_dynamodb",
+        "label": "Amazon DynamoDB",
+        "confidence": 0.22,
+        "edge_type": "uses"
+      }
+    ],
+    "unique_to_a": [
+      {
+        "node_id": "amazon_opensearch_service",
+        "label": "Amazon OpenSearch Service",
+        "confidence": 0.24,
+        "edge_type": "uses"
+      }
+    ],
+    "unique_to_b": [
+      {
+        "node_id": "amazon_sqs",
+        "label": "Amazon SQS",
+        "confidence": 0.15,
+        "edge_type": "uses"
+      }
+    ],
+    "shared_related_concepts": [
+      {
+        "node_id": "compliance",
+        "label": "compliance",
+        "confidence": 0.23,
+        "edge_type": "realized_as"
+      },
+      {
+        "node_id": "serverless",
+        "label": "serverless",
+        "confidence": 0.21,
+        "edge_type": "realized_as"
+      }
+    ],
+    "key_differences": [
+      {
+        "dimension": "real_time",
+        "favors": "WebSocket Streaming"
+      },
+      {
+        "dimension": "bidirectional",
+        "favors": "WebSocket Streaming"
+      },
+      {
+        "dimension": "simplicity",
+        "favors": "REST API Integration"
+      },
+      {
+        "dimension": "request_response",
+        "favors": "REST API Integration"
+      }
+    ],
+    "recommended_usage": [
+      {
+        "architecture": "WebSocket Streaming",
+        "guidance": [
+          "Use when the client needs a persistent connection for real-time or bidirectional updates.",
+          "Prefer when low-latency incremental delivery matters more than stateless simplicity."
+        ]
+      },
+      {
+        "architecture": "REST API Integration",
+        "guidance": [
+          "Use for synchronous stateless request-response inference and standard API integrations.",
+          "Prefer when implementation simplicity and broad client compatibility matter most."
+        ]
+      }
+    ],
+    "qwen_comparison_prompt": "Compare these two architectures: WebSocket Streaming and REST API Integration.\n\nWebSocket Streaming:\n- component: Amazon OpenSearch Service\n- shared component: AWS Lambda\n- shared component: Amazon API Gateway\n- shared component: Amazon Bedrock\n- shared component: AWS Step Functions\n- shared component: Amazon DynamoDB\n\nREST API Integration:\n- component: Amazon SQS\n- shared component: AWS Lambda\n- shared component: Amazon API Gateway\n- shared component: Amazon Bedrock\n- shared component: AWS Step Functions\n- shared component: Amazon DynamoDB\n\nExplain:\n- key differences\n- when to use each\n- tradeoffs"
+  },
+  {
+    "query": "Compare request-response versus asynchronous processing for GenAI workloads",
+    "mode": "comparison",
+    "seed_matches": [
+      {
+        "node_id": "asynchronous_processing",
+        "label": "Asynchronous Processing",
+        "type": "pattern",
+        "score": 0.0285,
+        "reasons": [
+          "alias phrase match: asynchronous processing",
+          "label phrase match: asynchronous processing"
+        ]
+      },
+      {
+        "node_id": "request_response",
+        "label": "Request Response",
+        "type": "pattern",
+        "score": 0.0095,
+        "reasons": [
+          "alias phrase match: request-response"
+        ]
+      }
+    ],
+    "concept_a": {
+      "node_id": "asynchronous_processing",
+      "label": "Asynchronous Processing",
+      "type": "pattern",
+      "score": 0.0285
+    },
+    "concept_b": {
+      "node_id": "request_response",
+      "label": "Request Response",
+      "type": "pattern",
+      "score": 0.0095
+    },
+    "direct_relationships": [
+      {
+        "type": "contrasts_with",
+        "from": "Request Response",
+        "to": "Asynchronous Processing",
+        "confidence": 0.59,
+        "evidence_count": 1,
+        "source_diversity": 0
+      },
+      {
+        "type": "tradeoff",
+        "from": "Request Response",
+        "to": "Asynchronous Processing",
+        "confidence": 0.59,
+        "evidence_count": 1,
+        "source_diversity": 0,
+        "dimensions": {
+          "latency": "Request Response",
+          "decoupling": "Asynchronous Processing",
+          "throughput": "Asynchronous Processing",
+          "simplicity": "Request Response"
+        }
+      }
+    ],
+    "shared_components": [
+      {
+        "node_id": "amazon_bedrock",
+        "label": "Amazon Bedrock",
+        "confidence": 0.14,
+        "edge_type": "uses"
+      }
+    ],
+    "unique_to_a": [
+      {
+        "node_id": "aws_lambda",
+        "label": "AWS Lambda",
+        "confidence": 0.14,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "aws_sdks",
+        "label": "AWS SDKs",
+        "confidence": 0.14,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "aws_step_functions",
+        "label": "AWS Step Functions",
+        "confidence": 0.14,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "amazon_api_gateway",
+        "label": "Amazon API Gateway",
+        "confidence": 0.14,
+        "edge_type": "uses"
+      },
+      {
+        "node_id": "amazon_dynamodb",
+        "label": "Amazon DynamoDB",
+        "confidence": 0.14,
+        "edge_type": "uses"
+      }
+    ],
+    "unique_to_b": [
+      {
+        "node_id": "amazon_s3",
+        "label": "Amazon S3",
+        "confidence": 0.07,
+        "edge_type": "uses"
+      }
+    ],
+    "shared_related_concepts": [],
+    "key_differences": [
+      {
+        "dimension": "latency",
+        "favors": "Request Response"
+      },
+      {
+        "dimension": "decoupling",
+        "favors": "Asynchronous Processing"
+      },
+      {
+        "dimension": "throughput",
+        "favors": "Asynchronous Processing"
+      },
+      {
+        "dimension": "simplicity",
+        "favors": "Request Response"
+      }
+    ],
+    "recommended_usage": [
+      {
+        "architecture": "Request Response",
+        "guidance": [
+          "Use when the caller needs an immediate answer and the workflow fits a synchronous boundary.",
+          "Prefer for simpler low-latency inference calls with direct user interaction."
+        ]
+      },
+      {
+        "architecture": "Asynchronous Processing",
+        "guidance": [
+          "Use for long-running or bursty workloads where producers and consumers should be decoupled.",
+          "Prefer when resilience and throughput matter more than immediate completion."
+        ]
+      }
+    ],
+    "qwen_comparison_prompt": "Compare these two architectures: Asynchronous Processing and Request Response.\n\nAsynchronous Processing:\n- component: AWS Lambda\n- component: AWS SDKs\n- component: AWS Step Functions\n- component: Amazon API Gateway\n- component: Amazon DynamoDB\n- shared component: Amazon Bedrock\n\nRequest Response:\n- component: Amazon S3\n- shared component: Amazon Bedrock\n\nExplain:\n- key differences\n- when to use each\n- tradeoffs"
+  }
+]
