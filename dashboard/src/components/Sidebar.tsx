@@ -5,6 +5,7 @@ const TABS: { id: TabId; label: string; icon: string }[] = [
   { id: "concepts", label: "Concepts", icon: "💡" },
   { id: "patterns", label: "Patterns", icon: "🧩" },
   { id: "comparisons", label: "Compare", icon: "⚖️" },
+  { id: "agents", label: "Agents", icon: "🤖" },
 ];
 
 interface Props {

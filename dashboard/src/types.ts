@@ -128,7 +128,66 @@ export interface SimLink extends d3.SimulationLinkDatum<SimNode> {
 }
 
 // ── App state ──
-export type TabId = "graph" | "concepts" | "patterns" | "comparisons";
+export type TabId =
+  | "graph"
+  | "concepts"
+  | "patterns"
+  | "comparisons"
+  | "agents";
+
+// ── Agent API ──
+export type AgentName = "tutor" | "quiz" | "review";
+
+export interface AgentRouting {
+  reason: string;
+  method?: string;
+}
+
+export interface TutorOutput {
+  answer: string;
+  concept: string | null;
+  related_components: string[];
+  related_patterns: string[];
+}
+
+export interface QuizQuestion {
+  id: number;
+  question: string;
+  options: string[];
+  answer: string;
+  explanation: string;
+}
+
+export interface QuizOutput {
+  questions: QuizQuestion[];
+  topics: string[];
+  parse_error?: string;
+  raw?: string;
+}
+
+export interface ReviewOutput {
+  scores: {
+    security: number;
+    scalability: number;
+    cost_efficiency: number;
+    reliability: number;
+    operational_excellence: number;
+  };
+  overall: number;
+  strengths: string[];
+  risks: string[];
+  recommendations: string[];
+  concept: string | null;
+  parse_error?: string;
+  raw?: string;
+}
+
+export interface AgentRunResponse {
+  agent: AgentName;
+  routing: AgentRouting;
+  output: TutorOutput | QuizOutput | ReviewOutput;
+  metadata: Record<string, unknown>;
+}
 
 export interface Filters {
   showConcepts: boolean;
