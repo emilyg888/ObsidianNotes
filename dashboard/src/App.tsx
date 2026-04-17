@@ -7,6 +7,7 @@ import { ConceptCards } from "./components/ConceptCards";
 import { PatternRegistry } from "./components/PatternRegistry";
 import { Comparisons } from "./components/Comparisons";
 import { DetailPanel } from "./components/DetailPanel";
+import { AgentsPanel } from "./components/AgentsPanel";
 
 export default function App() {
   const data = useGraphData();
@@ -113,6 +114,13 @@ export default function App() {
               data.extractions.comparison_registry?.filter(
                 (c) => c.type === "tradeoff"
               ) ?? []
+            }
+          />
+        )}
+        {tab === "agents" && (
+          <AgentsPanel
+            concepts={
+              data.extractions.global_concept_index?.map((c) => c.concept) ?? []
             }
           />
         )}

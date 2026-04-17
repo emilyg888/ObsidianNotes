@@ -7,6 +7,19 @@
       "runtimeArgs": ["run", "dev"],
       "port": 5173,
       "cwd": "dashboard"
+    },
+    {
+      "name": "agents-backend",
+      "runtimeExecutable": "agents/.venv/bin/uvicorn",
+      "runtimeArgs": [
+        "agents.server:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8765",
+        "--reload"
+      ],
+      "port": 8765
     }
   ]
 }
