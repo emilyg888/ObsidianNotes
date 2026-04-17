@@ -1,0 +1,982 @@
+[
+  {
+    "concept": "retrieval augmented generation (RAG)",
+    "aliases": [
+      "rag",
+      "retrieval augmented generation"
+    ],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "Amazon S3",
+      "Amazon SageMaker AI",
+      "AWS Step Functions"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "caching",
+      "WebSocket API",
+      "event-driven architecture",
+      "model routing"
+    ],
+    "graph_confidence": 1.0,
+    "frequency": 72,
+    "source_count": 5
+  },
+  {
+    "concept": "guardrails",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon API Gateway",
+      "Amazon OpenSearch Service",
+      "Amazon CloudWatch",
+      "Amazon S3",
+      "AWS Step Functions",
+      "Amazon Comprehend"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "WebSocket API",
+      "response streaming",
+      "vector search",
+      "caching",
+      "model routing"
+    ],
+    "graph_confidence": 0.75,
+    "frequency": 31,
+    "source_count": 5
+  },
+  {
+    "concept": "knowledge base",
+    "aliases": [
+      "knowledge base",
+      "knowledge base retrieval"
+    ],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "Amazon CloudWatch",
+      "Amazon S3",
+      "Amazon API Gateway",
+      "AWS Step Functions",
+      "Amazon Bedrock Knowledge Bases"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "model routing",
+      "CI/CD pipeline",
+      "event-driven architecture",
+      "prompt chaining"
+    ],
+    "graph_confidence": 0.72,
+    "frequency": 27,
+    "source_count": 5
+  },
+  {
+    "concept": "security",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon API Gateway",
+      "Amazon OpenSearch Service",
+      "Amazon SageMaker AI",
+      "AWS Secrets Manager",
+      "Amazon DynamoDB",
+      "Amazon S3"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "caching",
+      "WebSocket API",
+      "cross-region inference",
+      "model routing",
+      "vector search"
+    ],
+    "graph_confidence": 0.7,
+    "frequency": 27,
+    "source_count": 5
+  },
+  {
+    "concept": "serverless",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "Amazon API Gateway",
+      "Amazon DynamoDB",
+      "AWS Step Functions",
+      "Amazon S3",
+      "Amazon SageMaker AI"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "event-driven architecture",
+      "step functions workflow",
+      "REST API",
+      "WebSocket API"
+    ],
+    "graph_confidence": 0.69,
+    "frequency": 27,
+    "source_count": 5
+  },
+  {
+    "concept": "compliance",
+    "aliases": [],
+    "related_components": [
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon S3",
+      "Amazon SageMaker AI",
+      "AWS Step Functions",
+      "AWS CloudTrail",
+      "Amazon Bedrock Prompt Management"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "WebSocket API",
+      "REST API",
+      "response streaming",
+      "batch processing",
+      "caching"
+    ],
+    "graph_confidence": 0.69,
+    "frequency": 26,
+    "source_count": 4
+  },
+  {
+    "concept": "governance",
+    "aliases": [],
+    "related_components": [
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon OpenSearch Service",
+      "Amazon API Gateway",
+      "AWS Step Functions",
+      "Amazon S3",
+      "Amazon SageMaker AI",
+      "Amazon CloudWatch"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "WebSocket API",
+      "caching",
+      "model routing",
+      "response streaming"
+    ],
+    "graph_confidence": 0.7,
+    "frequency": 25,
+    "source_count": 5
+  },
+  {
+    "concept": "observability",
+    "aliases": [],
+    "related_components": [
+      "Amazon CloudWatch",
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon API Gateway",
+      "Amazon OpenSearch Service",
+      "Amazon SageMaker AI",
+      "Amazon CloudWatch Logs",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "model routing",
+      "vector search",
+      "WebSocket API",
+      "event-driven architecture",
+      "response streaming"
+    ],
+    "graph_confidence": 0.66,
+    "frequency": 21,
+    "source_count": 5
+  },
+  {
+    "concept": "monitoring",
+    "aliases": [],
+    "related_components": [
+      "Amazon CloudWatch",
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon SageMaker AI",
+      "Amazon S3",
+      "Amazon DynamoDB",
+      "Amazon OpenSearch Service"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "model routing",
+      "caching",
+      "response streaming",
+      "vector search",
+      "CI/CD pipeline"
+    ],
+    "graph_confidence": 0.66,
+    "frequency": 20,
+    "source_count": 5
+  },
+  {
+    "concept": "model evaluation",
+    "aliases": [
+      "evaluation",
+      "eval",
+      "model eval"
+    ],
+    "related_components": [
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon CloudWatch",
+      "Amazon OpenSearch Service",
+      "AWS Step Functions",
+      "Amazon SageMaker AI",
+      "Amazon API Gateway",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "model routing",
+      "CI/CD pipeline",
+      "WebSocket API",
+      "caching"
+    ],
+    "graph_confidence": 0.66,
+    "frequency": 19,
+    "source_count": 5
+  },
+  {
+    "concept": "validation",
+    "aliases": [],
+    "related_components": [
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "AWS Step Functions",
+      "Amazon S3",
+      "Amazon SageMaker AI",
+      "Amazon OpenSearch Service"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "caching",
+      "model routing",
+      "vector search",
+      "CI/CD pipeline",
+      "event-driven architecture"
+    ],
+    "graph_confidence": 0.66,
+    "frequency": 19,
+    "source_count": 5
+  },
+  {
+    "concept": "vector store",
+    "aliases": [
+      "vector database",
+      "vector db",
+      "vector store"
+    ],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon OpenSearch Service",
+      "Amazon Bedrock",
+      "Amazon API Gateway",
+      "Amazon DynamoDB",
+      "Amazon S3",
+      "Amazon CloudWatch",
+      "Amazon Comprehend"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "model routing",
+      "WebSocket API",
+      "event-driven architecture",
+      "batch processing"
+    ],
+    "graph_confidence": 0.64,
+    "frequency": 16,
+    "source_count": 5
+  },
+  {
+    "concept": "vector search",
+    "aliases": [],
+    "related_components": [
+      "Amazon OpenSearch Service",
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon DynamoDB",
+      "Amazon API Gateway",
+      "Amazon S3",
+      "AWS Step Functions",
+      "Amazon Bedrock Knowledge Bases"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "WebSocket API",
+      "api gateway + lambda",
+      "batch processing",
+      "caching"
+    ],
+    "graph_confidence": 0.58,
+    "frequency": 15,
+    "source_count": 4
+  },
+  {
+    "concept": "memory",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon OpenSearch Service",
+      "Amazon SageMaker AI",
+      "Amazon Bedrock",
+      "Amazon S3",
+      "Amazon CloudWatch",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "CI/CD pipeline",
+      "WebSocket API",
+      "api gateway + lambda",
+      "caching"
+    ],
+    "graph_confidence": 0.52,
+    "frequency": 14,
+    "source_count": 5
+  },
+  {
+    "concept": "troubleshooting",
+    "aliases": [],
+    "related_components": [
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon CloudWatch",
+      "Amazon S3",
+      "AWS Step Functions",
+      "Amazon OpenSearch Service",
+      "Amazon SageMaker AI",
+      "Amazon API Gateway"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "event-driven architecture",
+      "CI/CD pipeline",
+      "model routing",
+      "response streaming"
+    ],
+    "graph_confidence": 0.56,
+    "frequency": 13,
+    "source_count": 4
+  },
+  {
+    "concept": "cost optimization",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "AWS Step Functions",
+      "Amazon API Gateway",
+      "Amazon DynamoDB",
+      "Amazon EventBridge",
+      "Amazon S3"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "caching",
+      "WebSocket API",
+      "cross-region inference",
+      "event-driven architecture",
+      "model routing"
+    ],
+    "graph_confidence": 0.52,
+    "frequency": 10,
+    "source_count": 3
+  },
+  {
+    "concept": "model routing",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "Amazon Bedrock",
+      "AWS AppConfig",
+      "AWS Step Functions",
+      "Amazon DynamoDB",
+      "Amazon OpenSearch Service"
+    ],
+    "related_patterns": [
+      "model routing",
+      "retrieval augmented generation (RAG)",
+      "caching",
+      "circuit breaker",
+      "cross-region inference",
+      "CI/CD pipeline"
+    ],
+    "graph_confidence": 0.43,
+    "frequency": 9,
+    "source_count": 4
+  },
+  {
+    "concept": "model selection",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "Amazon DynamoDB",
+      "Amazon OpenSearch Service",
+      "Amazon SageMaker AI",
+      "AWS AppConfig"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "model routing",
+      "vector search",
+      "caching",
+      "batch processing",
+      "circuit breaker"
+    ],
+    "graph_confidence": 0.52,
+    "frequency": 9,
+    "source_count": 3
+  },
+  {
+    "concept": "event-driven architecture",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "AWS Step Functions",
+      "Amazon EventBridge",
+      "Amazon S3",
+      "Amazon API Gateway",
+      "Amazon SQS",
+      "Amazon OpenSearch Service"
+    ],
+    "related_patterns": [
+      "event-driven architecture",
+      "retrieval augmented generation (RAG)",
+      "step functions workflow",
+      "api gateway + lambda",
+      "asynchronous processing",
+      "response streaming"
+    ],
+    "graph_confidence": 0.51,
+    "frequency": 8,
+    "source_count": 3
+  },
+  {
+    "concept": "prompt management",
+    "aliases": [],
+    "related_components": [
+      "Amazon Bedrock",
+      "Amazon Bedrock Prompt Management",
+      "AWS Step Functions",
+      "AWS Lambda",
+      "Amazon CloudWatch",
+      "Amazon DynamoDB",
+      "AWS CloudTrail",
+      "Amazon API Gateway"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "prompt chaining",
+      "response streaming",
+      "WebSocket API",
+      "circuit breaker",
+      "event-driven architecture"
+    ],
+    "graph_confidence": 0.51,
+    "frequency": 7,
+    "source_count": 3
+  },
+  {
+    "concept": "response streaming",
+    "aliases": [
+      "streaming responses",
+      "response streaming"
+    ],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon Bedrock",
+      "AWS Step Functions",
+      "Amazon DynamoDB",
+      "Amazon ECS",
+      "Amazon Bedrock Prompt Management",
+      "Amazon SQS"
+    ],
+    "related_patterns": [
+      "response streaming",
+      "retrieval augmented generation (RAG)",
+      "WebSocket API",
+      "batch processing",
+      "REST API",
+      "event-driven architecture"
+    ],
+    "graph_confidence": 0.51,
+    "frequency": 7,
+    "source_count": 3
+  },
+  {
+    "concept": "CI/CD",
+    "aliases": [
+      "ci/cd",
+      "continuous integration",
+      "continuous delivery"
+    ],
+    "related_components": [
+      "Amazon Bedrock",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon CloudWatch",
+      "Amazon SageMaker AI",
+      "AWS CodePipeline",
+      "Amazon Bedrock Model Evaluations",
+      "Amazon OpenSearch Service"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "CI/CD pipeline",
+      "event-driven architecture",
+      "response streaming",
+      "vector search",
+      "WebSocket API"
+    ],
+    "graph_confidence": 0.5,
+    "frequency": 6,
+    "source_count": 4
+  },
+  {
+    "concept": "cross-region inference",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "AWS Step Functions",
+      "AWS AppConfig",
+      "AWS Region",
+      "Amazon Aurora"
+    ],
+    "related_patterns": [
+      "cross-region inference",
+      "retrieval augmented generation (RAG)",
+      "WebSocket API",
+      "caching",
+      "circuit breaker",
+      "model routing"
+    ],
+    "graph_confidence": 0.35,
+    "frequency": 6,
+    "source_count": 3
+  },
+  {
+    "concept": "agentic ai",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "Amazon CloudWatch Logs",
+      "Amazon Comprehend",
+      "Amazon DynamoDB",
+      "Amazon OpenSearch Service",
+      "AWS Amplify"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "model routing",
+      "response streaming",
+      "event-driven architecture",
+      "vector search",
+      "CI/CD pipeline"
+    ],
+    "graph_confidence": 0.51,
+    "frequency": 5,
+    "source_count": 4
+  },
+  {
+    "concept": "multi-agent",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon OpenSearch Service",
+      "Amazon API Gateway",
+      "Amazon Bedrock Knowledge Bases",
+      "Amazon CloudWatch",
+      "Amazon DynamoDB",
+      "Amazon ECS",
+      "AWS Agent Squad"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "event-driven architecture",
+      "response streaming",
+      "CI/CD pipeline",
+      "WebSocket API"
+    ],
+    "graph_confidence": 0.47,
+    "frequency": 5,
+    "source_count": 3
+  },
+  {
+    "concept": "performance optimization",
+    "aliases": [],
+    "related_components": [
+      "Amazon Bedrock",
+      "Amazon S3",
+      "Amazon SageMaker AI",
+      "Amazon CloudWatch",
+      "AWS Amplify",
+      "AWS AppConfig",
+      "AWS Certification",
+      "AWS CloudTrail"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "CI/CD pipeline",
+      "event-driven architecture",
+      "response streaming",
+      "vector search",
+      "WebSocket API"
+    ],
+    "graph_confidence": 0.46,
+    "frequency": 5,
+    "source_count": 3
+  },
+  {
+    "concept": "prompt engineering",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "Amazon OpenSearch Service",
+      "Amazon Bedrock",
+      "Amazon Bedrock Prompt Management",
+      "Amazon Comprehend",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "event-driven architecture",
+      "model routing",
+      "response streaming",
+      "CI/CD pipeline"
+    ],
+    "graph_confidence": 0.51,
+    "frequency": 5,
+    "source_count": 4
+  },
+  {
+    "concept": "foundation model integration",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "Amazon DynamoDB",
+      "Amazon S3",
+      "AWS Blog",
+      "Amazon API Gateway",
+      "Amazon Aurora"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "CI/CD pipeline",
+      "WebSocket API",
+      "asynchronous processing",
+      "batch processing"
+    ],
+    "graph_confidence": 0.29,
+    "frequency": 4,
+    "source_count": 2
+  },
+  {
+    "concept": "circuit breaker",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "AWS Step Functions",
+      "Amazon Bedrock",
+      "AWS AppConfig",
+      "Amazon API Gateway",
+      "Amazon Aurora",
+      "Amazon CloudWatch",
+      "Amazon ECS"
+    ],
+    "related_patterns": [
+      "circuit breaker",
+      "cross-region inference",
+      "model routing",
+      "prompt chaining",
+      "retrieval augmented generation (RAG)",
+      "CI/CD pipeline"
+    ],
+    "graph_confidence": 0.28,
+    "frequency": 3,
+    "source_count": 2
+  },
+  {
+    "concept": "prompt chaining",
+    "aliases": [],
+    "related_components": [
+      "AWS Step Functions",
+      "Amazon Bedrock",
+      "AWS Lambda",
+      "Amazon Bedrock Prompt Management",
+      "AWS Agent Squad",
+      "AWS Amplify",
+      "AWS AppConfig",
+      "AWS Certification"
+    ],
+    "related_patterns": [
+      "prompt chaining",
+      "retrieval augmented generation (RAG)",
+      "circuit breaker",
+      "CI/CD pipeline",
+      "WebSocket API",
+      "asynchronous processing"
+    ],
+    "graph_confidence": 0.28,
+    "frequency": 3,
+    "source_count": 2
+  },
+  {
+    "concept": "responsible ai",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon CloudWatch",
+      "Amazon Comprehend",
+      "Amazon DynamoDB",
+      "Amazon OpenSearch Service",
+      "AWS Amplify",
+      "AWS AppConfig"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "event-driven architecture",
+      "model routing",
+      "response streaming",
+      "vector search",
+      "CI/CD pipeline"
+    ],
+    "graph_confidence": 0.41,
+    "frequency": 3,
+    "source_count": 2
+  },
+  {
+    "concept": "semantic retrieval",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "Amazon S3",
+      "Amazon API Gateway",
+      "Amazon Aurora",
+      "Amazon Bedrock Knowledge Base",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search",
+      "CI/CD pipeline",
+      "WebSocket API",
+      "asynchronous processing",
+      "circuit breaker"
+    ],
+    "graph_confidence": 0.27,
+    "frequency": 3,
+    "source_count": 2
+  },
+  {
+    "concept": "api design",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon Bedrock AgentCore",
+      "AWS Amplify",
+      "AWS App Mesh",
+      "AWS App Runner",
+      "AWS App2Container",
+      "AWS AppConfig"
+    ],
+    "related_patterns": [
+      "REST API",
+      "caching",
+      "event-driven architecture",
+      "response streaming",
+      "retrieval augmented generation (RAG)",
+      "vector search"
+    ],
+    "graph_confidence": 0.31,
+    "frequency": 2,
+    "source_count": 2
+  },
+  {
+    "concept": "agent orchestration",
+    "aliases": [],
+    "related_components": [
+      "AWS Agent Squad",
+      "AWS Fargate",
+      "AWS Lambda",
+      "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Agent Runtime",
+      "Amazon Bedrock AgentCore User",
+      "Amazon Bedrock Knowledge Bases",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search"
+    ],
+    "graph_confidence": 0.07,
+    "frequency": 1,
+    "source_count": 1
+  },
+  {
+    "concept": "graceful degradation",
+    "aliases": [],
+    "related_components": [
+      "AWS Agent Squad",
+      "AWS Amplify",
+      "AWS AppConfig",
+      "AWS Certification",
+      "AWS CloudTrail",
+      "AWS CodeBuild",
+      "AWS CodePipeline",
+      "AWS Glue"
+    ],
+    "related_patterns": [
+      "CI/CD pipeline",
+      "WebSocket API",
+      "asynchronous processing",
+      "circuit breaker",
+      "cross-region inference",
+      "event-driven architecture"
+    ],
+    "graph_confidence": 0.21,
+    "frequency": 1,
+    "source_count": 1
+  },
+  {
+    "concept": "latency optimization",
+    "aliases": [],
+    "related_components": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon Bedrock",
+      "Amazon OpenSearch Service",
+      "Amazon SageMaker AI",
+      "Aws Sdk"
+    ],
+    "related_patterns": [
+      "caching",
+      "cross-region inference",
+      "retrieval augmented generation (RAG)",
+      "vector search"
+    ],
+    "graph_confidence": 0.09,
+    "frequency": 1,
+    "source_count": 1
+  },
+  {
+    "concept": "long-term memory",
+    "aliases": [],
+    "related_components": [
+      "AWS Agent Squad",
+      "AWS Fargate",
+      "AWS Lambda",
+      "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Agent Runtime",
+      "Amazon Bedrock AgentCore User",
+      "Amazon Bedrock Knowledge Bases",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search"
+    ],
+    "graph_confidence": 0.07,
+    "frequency": 1,
+    "source_count": 1
+  },
+  {
+    "concept": "provider switching",
+    "aliases": [],
+    "related_components": [
+      "AWS Agent Squad",
+      "AWS Amplify",
+      "AWS AppConfig",
+      "AWS Certification",
+      "AWS CloudTrail",
+      "AWS CodeBuild",
+      "AWS CodePipeline",
+      "AWS Glue"
+    ],
+    "related_patterns": [
+      "CI/CD pipeline",
+      "WebSocket API",
+      "asynchronous processing",
+      "circuit breaker",
+      "cross-region inference",
+      "event-driven architecture"
+    ],
+    "graph_confidence": 0.21,
+    "frequency": 1,
+    "source_count": 1
+  },
+  {
+    "concept": "session memory",
+    "aliases": [],
+    "related_components": [
+      "AWS Agent Squad",
+      "AWS Fargate",
+      "AWS Lambda",
+      "Amazon Bedrock AgentCore",
+      "Amazon Bedrock AgentCore Agent Runtime",
+      "Amazon Bedrock AgentCore User",
+      "Amazon Bedrock Knowledge Bases",
+      "Amazon DynamoDB"
+    ],
+    "related_patterns": [
+      "retrieval augmented generation (RAG)",
+      "vector search"
+    ],
+    "graph_confidence": 0.07,
+    "frequency": 1,
+    "source_count": 1
+  }
+]

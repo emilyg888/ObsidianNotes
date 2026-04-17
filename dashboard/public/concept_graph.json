@@ -1,0 +1,5825 @@
+{
+  "nodes": [
+    {
+      "id": "amazon_api_gateway",
+      "type": "component",
+      "label": "Amazon API Gateway"
+    },
+    {
+      "id": "amazon_api_gateway_websocket_apis",
+      "type": "component",
+      "label": "Amazon API Gateway WebSocket APIs"
+    },
+    {
+      "id": "amazon_aurora",
+      "type": "component",
+      "label": "Amazon Aurora"
+    },
+    {
+      "id": "amazon_bedrock",
+      "type": "component",
+      "label": "Amazon Bedrock"
+    },
+    {
+      "id": "amazon_bedrock_agentcore",
+      "type": "component",
+      "label": "Amazon Bedrock AgentCore"
+    },
+    {
+      "id": "amazon_bedrock_agentcore_agent_runtime",
+      "type": "component",
+      "label": "Amazon Bedrock AgentCore Agent Runtime"
+    },
+    {
+      "id": "amazon_bedrock_agentcore_user",
+      "type": "component",
+      "label": "Amazon Bedrock AgentCore User"
+    },
+    {
+      "id": "amazon_bedrock_knowledge_base",
+      "type": "component",
+      "label": "Amazon Bedrock Knowledge Base"
+    },
+    {
+      "id": "amazon_bedrock_knowledge_bases",
+      "type": "component",
+      "label": "Amazon Bedrock Knowledge Bases"
+    },
+    {
+      "id": "amazon_bedrock_model_evaluations",
+      "type": "component",
+      "label": "Amazon Bedrock Model Evaluations"
+    },
+    {
+      "id": "amazon_bedrock_prompt_management",
+      "type": "component",
+      "label": "Amazon Bedrock Prompt Management"
+    },
+    {
+      "id": "amazon_cloudwatch",
+      "type": "component",
+      "label": "Amazon CloudWatch"
+    },
+    {
+      "id": "amazon_cloudwatch_logs",
+      "type": "component",
+      "label": "Amazon CloudWatch Logs"
+    },
+    {
+      "id": "amazon_comprehend",
+      "type": "component",
+      "label": "Amazon Comprehend"
+    },
+    {
+      "id": "amazon_dynamodb",
+      "type": "component",
+      "label": "Amazon DynamoDB"
+    },
+    {
+      "id": "amazon_ecs",
+      "type": "component",
+      "label": "Amazon ECS"
+    },
+    {
+      "id": "amazon_eventbridge",
+      "type": "component",
+      "label": "Amazon EventBridge"
+    },
+    {
+      "id": "amazon_opensearch_service",
+      "type": "component",
+      "label": "Amazon OpenSearch Service"
+    },
+    {
+      "id": "amazon_s3",
+      "type": "component",
+      "label": "Amazon S3"
+    },
+    {
+      "id": "amazon_sagemaker_ai",
+      "type": "component",
+      "label": "Amazon SageMaker AI"
+    },
+    {
+      "id": "amazon_sqs",
+      "type": "component",
+      "label": "Amazon SQS"
+    },
+    {
+      "id": "aws_agent_squad",
+      "type": "component",
+      "label": "AWS Agent Squad"
+    },
+    {
+      "id": "aws_amplify",
+      "type": "component",
+      "label": "AWS Amplify"
+    },
+    {
+      "id": "aws_app2container",
+      "type": "component",
+      "label": "AWS App2Container"
+    },
+    {
+      "id": "aws_app_mesh",
+      "type": "component",
+      "label": "AWS App Mesh"
+    },
+    {
+      "id": "aws_app_runner",
+      "type": "component",
+      "label": "AWS App Runner"
+    },
+    {
+      "id": "aws_appconfig",
+      "type": "component",
+      "label": "AWS AppConfig"
+    },
+    {
+      "id": "aws_blog",
+      "type": "component",
+      "label": "AWS Blog"
+    },
+    {
+      "id": "aws_certification",
+      "type": "component",
+      "label": "AWS Certification"
+    },
+    {
+      "id": "aws_cloudtrail",
+      "type": "component",
+      "label": "AWS CloudTrail"
+    },
+    {
+      "id": "aws_codebuild",
+      "type": "component",
+      "label": "AWS CodeBuild"
+    },
+    {
+      "id": "aws_codepipeline",
+      "type": "component",
+      "label": "AWS CodePipeline"
+    },
+    {
+      "id": "aws_fargate",
+      "type": "component",
+      "label": "AWS Fargate"
+    },
+    {
+      "id": "aws_glue",
+      "type": "component",
+      "label": "AWS Glue"
+    },
+    {
+      "id": "aws_lambda",
+      "type": "component",
+      "label": "AWS Lambda"
+    },
+    {
+      "id": "aws_lambda_producer",
+      "type": "component",
+      "label": "AWS Lambda Producer"
+    },
+    {
+      "id": "aws_region",
+      "type": "component",
+      "label": "AWS Region"
+    },
+    {
+      "id": "aws_sdk",
+      "type": "component",
+      "label": "Aws Sdk"
+    },
+    {
+      "id": "aws_sdks",
+      "type": "component",
+      "label": "AWS SDKs"
+    },
+    {
+      "id": "aws_secrets_manager",
+      "type": "component",
+      "label": "AWS Secrets Manager"
+    },
+    {
+      "id": "aws_step_functions",
+      "type": "component",
+      "label": "AWS Step Functions"
+    },
+    {
+      "id": "agent_orchestration",
+      "type": "concept",
+      "label": "agent orchestration",
+      "confidence": 0.07
+    },
+    {
+      "id": "agentic_ai",
+      "type": "concept",
+      "label": "agentic ai",
+      "confidence": 0.51
+    },
+    {
+      "id": "api_design",
+      "type": "concept",
+      "label": "api design",
+      "confidence": 0.31
+    },
+    {
+      "id": "ci_cd",
+      "type": "concept",
+      "label": "CI/CD",
+      "confidence": 0.5
+    },
+    {
+      "id": "compliance",
+      "type": "concept",
+      "label": "compliance",
+      "confidence": 0.69
+    },
+    {
+      "id": "cost_optimization",
+      "type": "concept",
+      "label": "cost optimization",
+      "confidence": 0.52
+    },
+    {
+      "id": "foundation_model_integration",
+      "type": "concept",
+      "label": "foundation model integration",
+      "confidence": 0.29
+    },
+    {
+      "id": "governance",
+      "type": "concept",
+      "label": "governance",
+      "confidence": 0.7
+    },
+    {
+      "id": "graceful_degradation",
+      "type": "concept",
+      "label": "graceful degradation",
+      "confidence": 0.21
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "label": "guardrails",
+      "confidence": 0.75
+    },
+    {
+      "id": "knowledge_base",
+      "type": "concept",
+      "label": "knowledge base",
+      "confidence": 0.72
+    },
+    {
+      "id": "latency_optimization",
+      "type": "concept",
+      "label": "latency optimization",
+      "confidence": 0.09
+    },
+    {
+      "id": "long_term_memory",
+      "type": "concept",
+      "label": "long-term memory",
+      "confidence": 0.07
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "label": "memory",
+      "confidence": 0.52
+    },
+    {
+      "id": "model_evaluation",
+      "type": "concept",
+      "label": "model evaluation",
+      "confidence": 0.66
+    },
+    {
+      "id": "model_selection",
+      "type": "concept",
+      "label": "model selection",
+      "confidence": 0.52
+    },
+    {
+      "id": "monitoring",
+      "type": "concept",
+      "label": "monitoring",
+      "confidence": 0.66
+    },
+    {
+      "id": "multi_agent",
+      "type": "concept",
+      "label": "multi-agent",
+      "confidence": 0.47
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "label": "observability",
+      "confidence": 0.66
+    },
+    {
+      "id": "performance_optimization",
+      "type": "concept",
+      "label": "performance optimization",
+      "confidence": 0.46
+    },
+    {
+      "id": "prompt_engineering",
+      "type": "concept",
+      "label": "prompt engineering",
+      "confidence": 0.51
+    },
+    {
+      "id": "prompt_management",
+      "type": "concept",
+      "label": "prompt management",
+      "confidence": 0.51
+    },
+    {
+      "id": "responsible_ai",
+      "type": "concept",
+      "label": "responsible ai",
+      "confidence": 0.41
+    },
+    {
+      "id": "retrieval_augmented_generation",
+      "type": "concept",
+      "label": "retrieval augmented generation (RAG)",
+      "confidence": 1.0
+    },
+    {
+      "id": "security",
+      "type": "concept",
+      "label": "security",
+      "confidence": 0.7
+    },
+    {
+      "id": "semantic_retrieval",
+      "type": "concept",
+      "label": "semantic retrieval",
+      "confidence": 0.27
+    },
+    {
+      "id": "serverless",
+      "type": "concept",
+      "label": "serverless",
+      "confidence": 0.69
+    },
+    {
+      "id": "session_memory",
+      "type": "concept",
+      "label": "session memory",
+      "confidence": 0.07
+    },
+    {
+      "id": "troubleshooting",
+      "type": "concept",
+      "label": "troubleshooting",
+      "confidence": 0.56
+    },
+    {
+      "id": "validation",
+      "type": "concept",
+      "label": "validation",
+      "confidence": 0.66
+    },
+    {
+      "id": "vector_store",
+      "type": "concept",
+      "label": "vector store",
+      "confidence": 0.64
+    },
+    {
+      "id": "api_gateway_lambda",
+      "type": "pattern",
+      "label": "API Gateway Plus Lambda",
+      "confidence": 0.07
+    },
+    {
+      "id": "asynchronous_processing",
+      "type": "pattern",
+      "label": "Asynchronous Processing",
+      "confidence": 0.03
+    },
+    {
+      "id": "batch_processing",
+      "type": "pattern",
+      "label": "Batch Processing",
+      "confidence": 0.08
+    },
+    {
+      "id": "caching",
+      "type": "pattern",
+      "label": "Caching Layer",
+      "confidence": 0.12
+    },
+    {
+      "id": "ci_cd_pipeline",
+      "type": "pattern",
+      "label": "CI/CD Pipeline",
+      "confidence": 0.05
+    },
+    {
+      "id": "circuit_breaker",
+      "type": "pattern",
+      "label": "Circuit Breaker",
+      "confidence": 0.04
+    },
+    {
+      "id": "cross_region_inference",
+      "type": "pattern",
+      "label": "Cross-Region Inference",
+      "confidence": 0.08
+    },
+    {
+      "id": "event_driven_architecture",
+      "type": "pattern",
+      "label": "Event-Driven Architecture",
+      "confidence": 0.11
+    },
+    {
+      "id": "model_routing",
+      "type": "pattern",
+      "label": "Model Routing",
+      "confidence": 0.12
+    },
+    {
+      "id": "prompt_chaining",
+      "type": "pattern",
+      "label": "Prompt Chaining",
+      "confidence": 0.04
+    },
+    {
+      "id": "provider_switching",
+      "type": "pattern",
+      "label": "Provider Switching",
+      "confidence": 0.01
+    },
+    {
+      "id": "publish_subscribe",
+      "type": "pattern",
+      "label": "Publish Subscribe",
+      "confidence": 0.01
+    },
+    {
+      "id": "request_response",
+      "type": "pattern",
+      "label": "Request Response",
+      "confidence": 0.01
+    },
+    {
+      "id": "response_streaming",
+      "type": "pattern",
+      "label": "Response Streaming",
+      "confidence": 0.1
+    },
+    {
+      "id": "rest_api",
+      "type": "pattern",
+      "label": "REST API Integration",
+      "confidence": 0.12
+    },
+    {
+      "id": "retrieval_augmented_generation_rag",
+      "type": "pattern",
+      "label": "Retrieval Augmented Generation",
+      "confidence": 1.0
+    },
+    {
+      "id": "serverless_architecture",
+      "type": "pattern",
+      "label": "Serverless Architecture",
+      "confidence": 0.01
+    },
+    {
+      "id": "step_functions_workflow",
+      "type": "pattern",
+      "label": "Step Functions Workflow",
+      "confidence": 0.08
+    },
+    {
+      "id": "vector_search",
+      "type": "pattern",
+      "label": "Vector Search",
+      "confidence": 0.21
+    },
+    {
+      "id": "websocket_api",
+      "type": "pattern",
+      "label": "WebSocket Streaming",
+      "confidence": 0.18
+    }
+  ],
+  "edges": [
+    {
+      "from": "agent_orchestration",
+      "to": "amazon_bedrock_agentcore",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "amazon_bedrock_agentcore_agent_runtime",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "amazon_bedrock_agentcore_user",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "amazon_bedrock_knowledge_bases",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "aws_fargate",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agent_orchestration",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "agentic_ai",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "agentic_ai",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "agentic_ai",
+      "to": "amazon_cloudwatch_logs",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "agentic_ai",
+      "to": "amazon_comprehend",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "agentic_ai",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "agentic_ai",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "agentic_ai",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "agentic_ai",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "agentic_ai",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 3,
+      "confidence": 0.19
+    },
+    {
+      "from": "agentic_ai",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "agentic_ai",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "agentic_ai",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "agentic_ai",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "agentic_ai",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "api_design",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "api_design",
+      "to": "amazon_bedrock_agentcore",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "api_design",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "api_design",
+      "to": "aws_app2container",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "api_design",
+      "to": "aws_app_mesh",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "api_design",
+      "to": "aws_app_runner",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "api_design",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "api_design",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "api_design",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "api_design",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "api_design",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "api_design",
+      "to": "rest_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "api_design",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "api_design",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "api_gateway_lambda",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "api_gateway_lambda",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "api_gateway_lambda",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "api_gateway_lambda",
+      "to": "amazon_sqs",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "api_gateway_lambda",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "api_gateway_lambda",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "asynchronous_processing",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "asynchronous_processing",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "asynchronous_processing",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "asynchronous_processing",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "asynchronous_processing",
+      "to": "aws_sdks",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "asynchronous_processing",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "batch_processing",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "batch_processing",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "batch_processing",
+      "to": "amazon_sqs",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "batch_processing",
+      "to": "aws_blog",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "batch_processing",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 2,
+      "confidence": 0.17
+    },
+    {
+      "from": "batch_processing",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "caching",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "caching",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "caching",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "caching",
+      "to": "amazon_sagemaker_ai",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "caching",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 9,
+      "source_diversity": 3,
+      "confidence": 0.27
+    },
+    {
+      "from": "caching",
+      "to": "aws_secrets_manager",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "ci_cd",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "ci_cd",
+      "to": "amazon_bedrock_model_evaluations",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "ci_cd",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "ci_cd",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "ci_cd",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "ci_cd",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "ci_cd",
+      "to": "aws_codepipeline",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "ci_cd",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "ci_cd",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "ci_cd",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "ci_cd",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "ci_cd",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "ci_cd",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 4,
+      "confidence": 0.26
+    },
+    {
+      "from": "ci_cd",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 3,
+      "confidence": 0.19
+    },
+    {
+      "from": "ci_cd_pipeline",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "ci_cd_pipeline",
+      "to": "amazon_cloudwatch",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 4,
+      "confidence": 0.26
+    },
+    {
+      "from": "ci_cd_pipeline",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 4,
+      "confidence": 0.26
+    },
+    {
+      "from": "ci_cd_pipeline",
+      "to": "amazon_s3",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "ci_cd_pipeline",
+      "to": "aws_codepipeline",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "ci_cd_pipeline",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_aurora",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_aurora",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "amazon_ecs",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "aws_appconfig",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "prompt_chaining",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "circuit_breaker",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "compliance",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 11,
+      "source_diversity": 4,
+      "confidence": 0.35
+    },
+    {
+      "from": "compliance",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 21,
+      "source_diversity": 3,
+      "confidence": 0.38
+    },
+    {
+      "from": "compliance",
+      "to": "amazon_bedrock_prompt_management",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "compliance",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "compliance",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "compliance",
+      "to": "aws_cloudtrail",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "compliance",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 13,
+      "source_diversity": 4,
+      "confidence": 0.37
+    },
+    {
+      "from": "compliance",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "compliance",
+      "to": "batch_processing",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "compliance",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "compliance",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "compliance",
+      "to": "rest_api",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "compliance",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 16,
+      "source_diversity": 4,
+      "confidence": 0.4
+    },
+    {
+      "from": "compliance",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "cost_optimization",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "cost_optimization",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "cost_optimization",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "cost_optimization",
+      "to": "amazon_eventbridge",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cost_optimization",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "cost_optimization",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cost_optimization",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 3,
+      "confidence": 0.28
+    },
+    {
+      "from": "cost_optimization",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "cost_optimization",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "cost_optimization",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "cost_optimization",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "cost_optimization",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "cost_optimization",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 10,
+      "source_diversity": 3,
+      "confidence": 0.28
+    },
+    {
+      "from": "cost_optimization",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_aurora",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_appconfig",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_region",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "cross_region_inference",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_eventbridge",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_eventbridge",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_s3",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "amazon_sqs",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "api_gateway_lambda",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "asynchronous_processing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "event_driven_architecture",
+      "to": "step_functions_workflow",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "amazon_aurora",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "asynchronous_processing",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "aws_blog",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "batch_processing",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "foundation_model_integration",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "governance",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "governance",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 17,
+      "source_diversity": 3,
+      "confidence": 0.35
+    },
+    {
+      "from": "governance",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 5,
+      "confidence": 0.36
+    },
+    {
+      "from": "governance",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 13,
+      "source_diversity": 5,
+      "confidence": 0.43
+    },
+    {
+      "from": "governance",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "governance",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "governance",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 15,
+      "source_diversity": 5,
+      "confidence": 0.45
+    },
+    {
+      "from": "governance",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "governance",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "governance",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "governance",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "governance",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 21,
+      "source_diversity": 5,
+      "confidence": 0.5
+    },
+    {
+      "from": "governance",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "governance",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "asynchronous_processing",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_certification",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_cloudtrail",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_codebuild",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_codepipeline",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "aws_glue",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "graceful_degradation",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "guardrails",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 15,
+      "source_diversity": 5,
+      "confidence": 0.45
+    },
+    {
+      "from": "guardrails",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 20,
+      "source_diversity": 3,
+      "confidence": 0.37
+    },
+    {
+      "from": "guardrails",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 5,
+      "confidence": 0.38
+    },
+    {
+      "from": "guardrails",
+      "to": "amazon_comprehend",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "guardrails",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 12,
+      "source_diversity": 5,
+      "confidence": 0.42
+    },
+    {
+      "from": "guardrails",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 4,
+      "confidence": 0.32
+    },
+    {
+      "from": "guardrails",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 20,
+      "source_diversity": 5,
+      "confidence": 0.49
+    },
+    {
+      "from": "guardrails",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "guardrails",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "guardrails",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "guardrails",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "guardrails",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 25,
+      "source_diversity": 5,
+      "confidence": 0.54
+    },
+    {
+      "from": "guardrails",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "guardrails",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "knowledge_base",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 9,
+      "source_diversity": 5,
+      "confidence": 0.39
+    },
+    {
+      "from": "knowledge_base",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 16,
+      "source_diversity": 3,
+      "confidence": 0.34
+    },
+    {
+      "from": "knowledge_base",
+      "to": "amazon_bedrock_knowledge_bases",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "knowledge_base",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 13,
+      "source_diversity": 5,
+      "confidence": 0.43
+    },
+    {
+      "from": "knowledge_base",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 5,
+      "confidence": 0.44
+    },
+    {
+      "from": "knowledge_base",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 4,
+      "confidence": 0.34
+    },
+    {
+      "from": "knowledge_base",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 17,
+      "source_diversity": 5,
+      "confidence": 0.47
+    },
+    {
+      "from": "knowledge_base",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "knowledge_base",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "knowledge_base",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "knowledge_base",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "knowledge_base",
+      "to": "prompt_chaining",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "knowledge_base",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 25,
+      "source_diversity": 5,
+      "confidence": 0.54
+    },
+    {
+      "from": "knowledge_base",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "latency_optimization",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "aws_sdk",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "latency_optimization",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "amazon_bedrock_agentcore",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "amazon_bedrock_agentcore_agent_runtime",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "amazon_bedrock_agentcore_user",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "amazon_bedrock_knowledge_bases",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "aws_fargate",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "long_term_memory",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "memory",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 5,
+      "confidence": 0.37
+    },
+    {
+      "from": "memory",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "memory",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 5,
+      "confidence": 0.34
+    },
+    {
+      "from": "memory",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 5,
+      "confidence": 0.34
+    },
+    {
+      "from": "memory",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 5,
+      "confidence": 0.37
+    },
+    {
+      "from": "memory",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "memory",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "memory",
+      "to": "api_gateway_lambda",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "memory",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 12,
+      "source_diversity": 5,
+      "confidence": 0.42
+    },
+    {
+      "from": "memory",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "memory",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "memory",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 12,
+      "source_diversity": 5,
+      "confidence": 0.42
+    },
+    {
+      "from": "memory",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "memory",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "model_evaluation",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 5,
+      "confidence": 0.35
+    },
+    {
+      "from": "model_evaluation",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 12,
+      "source_diversity": 3,
+      "confidence": 0.3
+    },
+    {
+      "from": "model_evaluation",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "model_evaluation",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 5,
+      "confidence": 0.35
+    },
+    {
+      "from": "model_evaluation",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "model_evaluation",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "model_evaluation",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 11,
+      "source_diversity": 5,
+      "confidence": 0.41
+    },
+    {
+      "from": "model_evaluation",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "model_evaluation",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "model_evaluation",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 4,
+      "confidence": 0.26
+    },
+    {
+      "from": "model_evaluation",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "model_evaluation",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 17,
+      "source_diversity": 5,
+      "confidence": 0.47
+    },
+    {
+      "from": "model_evaluation",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "model_evaluation",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 2,
+      "confidence": 0.17
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 2,
+      "confidence": 0.17
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_cloudwatch",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "model_routing",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "model_routing",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "model_routing",
+      "to": "aws_appconfig",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "model_routing",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "model_routing",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "model_routing",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "model_routing",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "model_routing",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "model_routing",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 3,
+      "confidence": 0.19
+    },
+    {
+      "from": "model_routing",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "model_routing",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "model_routing",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 9,
+      "source_diversity": 4,
+      "confidence": 0.33
+    },
+    {
+      "from": "model_routing",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "model_selection",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "model_selection",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 2,
+      "confidence": 0.2
+    },
+    {
+      "from": "model_selection",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "model_selection",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "model_selection",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "model_selection",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "model_selection",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "model_selection",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "model_selection",
+      "to": "batch_processing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "model_selection",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "model_selection",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "model_selection",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "model_selection",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "model_selection",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 3,
+      "confidence": 0.32
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 17,
+      "source_diversity": 5,
+      "confidence": 0.47
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 5,
+      "confidence": 0.36
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 5,
+      "confidence": 0.36
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "monitoring",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 4,
+      "confidence": 0.32
+    },
+    {
+      "from": "monitoring",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 13,
+      "source_diversity": 5,
+      "confidence": 0.43
+    },
+    {
+      "from": "monitoring",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "monitoring",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 4,
+      "confidence": 0.26
+    },
+    {
+      "from": "monitoring",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "monitoring",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "monitoring",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 18,
+      "source_diversity": 5,
+      "confidence": 0.47
+    },
+    {
+      "from": "monitoring",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "multi_agent",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "multi_agent",
+      "to": "amazon_bedrock_knowledge_bases",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "multi_agent",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "multi_agent",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "multi_agent",
+      "to": "amazon_ecs",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "multi_agent",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "multi_agent",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "multi_agent",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "multi_agent",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 3,
+      "confidence": 0.19
+    },
+    {
+      "from": "multi_agent",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "multi_agent",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "multi_agent",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "multi_agent",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "multi_agent",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "observability",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "observability",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 12,
+      "source_diversity": 3,
+      "confidence": 0.3
+    },
+    {
+      "from": "observability",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 16,
+      "source_diversity": 5,
+      "confidence": 0.46
+    },
+    {
+      "from": "observability",
+      "to": "amazon_cloudwatch_logs",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "observability",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 5,
+      "confidence": 0.35
+    },
+    {
+      "from": "observability",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 9,
+      "source_diversity": 5,
+      "confidence": 0.39
+    },
+    {
+      "from": "observability",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "observability",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 5,
+      "confidence": 0.44
+    },
+    {
+      "from": "observability",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "observability",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "observability",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "observability",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 17,
+      "source_diversity": 5,
+      "confidence": 0.47
+    },
+    {
+      "from": "observability",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "observability",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "performance_optimization",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "performance_optimization",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "performance_optimization",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "performance_optimization",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "performance_optimization",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "performance_optimization",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "performance_optimization",
+      "to": "aws_certification",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "performance_optimization",
+      "to": "aws_cloudtrail",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "performance_optimization",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "performance_optimization",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "performance_optimization",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "performance_optimization",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "performance_optimization",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "performance_optimization",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 3,
+      "confidence": 0.19
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "amazon_bedrock_prompt_management",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "amazon_bedrock_prompt_management",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "asynchronous_processing",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_agent_squad",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_amplify",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_certification",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "prompt_chaining",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_chaining",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_bedrock_prompt_management",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_comprehend",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 3,
+      "confidence": 0.19
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 4,
+      "confidence": 0.26
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "prompt_engineering",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "prompt_management",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "prompt_management",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "prompt_management",
+      "to": "amazon_bedrock_prompt_management",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "prompt_management",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "prompt_management",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "prompt_management",
+      "to": "aws_cloudtrail",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "prompt_management",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "prompt_management",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "prompt_management",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "prompt_management",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "prompt_management",
+      "to": "prompt_chaining",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "prompt_management",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "prompt_management",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "prompt_management",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "provider_switching",
+      "to": "asynchronous_processing",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_agent_squad",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_amplify",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_appconfig",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_certification",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_certification",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_cloudtrail",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_cloudtrail",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_codebuild",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_codebuild",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_codepipeline",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "aws_glue",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "provider_switching",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "publish_subscribe",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "publish_subscribe",
+      "to": "amazon_api_gateway_websocket_apis",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "publish_subscribe",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "publish_subscribe",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "publish_subscribe",
+      "to": "aws_lambda_producer",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "publish_subscribe",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "request_response",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "request_response",
+      "to": "amazon_s3",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "request_response",
+      "to": "asynchronous_processing",
+      "confidence": 0.59,
+      "evidence_count": 1,
+      "source_diversity": 0,
+      "shared_components": [
+        "Amazon Bedrock"
+      ],
+      "shared_sources": [],
+      "shared_contexts": [],
+      "type": "contrasts_with"
+    },
+    {
+      "from": "request_response",
+      "to": "asynchronous_processing",
+      "confidence": 0.59,
+      "evidence_count": 1,
+      "source_diversity": 0,
+      "shared_components": [
+        "Amazon Bedrock"
+      ],
+      "shared_sources": [],
+      "shared_contexts": [],
+      "type": "tradeoff",
+      "dimensions": {
+        "latency": "request_response",
+        "decoupling": "asynchronous_processing",
+        "throughput": "asynchronous_processing",
+        "simplicity": "request_response"
+      },
+      "recommended_usage": {
+        "request_response": [
+          "Use when the caller needs an immediate answer and the workflow fits a synchronous boundary.",
+          "Prefer for simpler low-latency inference calls with direct user interaction."
+        ],
+        "asynchronous_processing": [
+          "Use for long-running or bursty workloads where producers and consumers should be decoupled.",
+          "Prefer when resilience and throughput matter more than immediate completion."
+        ]
+      }
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_bedrock_prompt_management",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_ecs",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_ecs",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "response_streaming",
+      "to": "amazon_sqs",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "response_streaming",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "response_streaming",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "response_streaming",
+      "to": "batch_processing",
+      "confidence": 0.79,
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "shared_components": [
+        "AWS Lambda",
+        "AWS Step Functions",
+        "Amazon Bedrock",
+        "Amazon DynamoDB"
+      ],
+      "shared_sources": [
+        "AIP-C01-part2.md",
+        "AIP-C01.md"
+      ],
+      "shared_contexts": [
+        "compliance",
+        "retrieval augmented generation (RAG)"
+      ],
+      "type": "contrasts_with"
+    },
+    {
+      "from": "response_streaming",
+      "to": "batch_processing",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "response_streaming",
+      "to": "batch_processing",
+      "confidence": 0.79,
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "shared_components": [
+        "AWS Lambda",
+        "AWS Step Functions",
+        "Amazon Bedrock",
+        "Amazon DynamoDB"
+      ],
+      "shared_sources": [
+        "AIP-C01-part2.md",
+        "AIP-C01.md"
+      ],
+      "shared_contexts": [
+        "compliance",
+        "retrieval augmented generation (RAG)"
+      ],
+      "type": "tradeoff",
+      "dimensions": {
+        "time_to_first_token": "response_streaming",
+        "offline_throughput": "batch_processing",
+        "interactive_ux": "response_streaming",
+        "large_scale_jobs": "batch_processing"
+      },
+      "recommended_usage": {
+        "response_streaming": [
+          "Use when the user should see output as it is generated.",
+          "Prefer for interactive copilots, chat, and progressive delivery experiences."
+        ],
+        "batch_processing": [
+          "Use for offline bulk jobs where aggregate throughput matters more than immediate feedback.",
+          "Prefer for scheduled processing and large backfills."
+        ]
+      }
+    },
+    {
+      "from": "response_streaming",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "response_streaming",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "response_streaming",
+      "to": "rest_api",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "response_streaming",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "response_streaming",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "responsible_ai",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "amazon_comprehend",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "aws_amplify",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "responsible_ai",
+      "to": "aws_appconfig",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "responsible_ai",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "responsible_ai",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "responsible_ai",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "responsible_ai",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "responsible_ai",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "responsible_ai",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 1,
+      "confidence": 0.08
+    },
+    {
+      "from": "rest_api",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 8,
+      "source_diversity": 2,
+      "confidence": 0.2
+    },
+    {
+      "from": "rest_api",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "rest_api",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "rest_api",
+      "to": "amazon_sqs",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "rest_api",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 8,
+      "source_diversity": 2,
+      "confidence": 0.2
+    },
+    {
+      "from": "rest_api",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 27,
+      "source_diversity": 5,
+      "confidence": 0.56
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 46,
+      "source_diversity": 3,
+      "confidence": 0.63
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 21,
+      "source_diversity": 5,
+      "confidence": 0.5
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 33,
+      "source_diversity": 5,
+      "confidence": 0.62
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 21,
+      "source_diversity": 4,
+      "confidence": 0.44
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 20,
+      "source_diversity": 4,
+      "confidence": 0.43
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 48,
+      "source_diversity": 5,
+      "confidence": 0.77
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 17,
+      "source_diversity": 3,
+      "confidence": 0.35
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 72,
+      "source_diversity": 5,
+      "confidence": 1.0
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 15,
+      "source_diversity": 4,
+      "confidence": 0.39
+    },
+    {
+      "from": "retrieval_augmented_generation",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "retrieval_augmented_generation_rag",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 27,
+      "source_diversity": 5,
+      "confidence": 0.56
+    },
+    {
+      "from": "retrieval_augmented_generation_rag",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 47,
+      "source_diversity": 3,
+      "confidence": 0.64
+    },
+    {
+      "from": "retrieval_augmented_generation_rag",
+      "to": "amazon_cloudwatch",
+      "type": "uses",
+      "evidence_count": 22,
+      "source_diversity": 5,
+      "confidence": 0.51
+    },
+    {
+      "from": "retrieval_augmented_generation_rag",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 33,
+      "source_diversity": 5,
+      "confidence": 0.62
+    },
+    {
+      "from": "retrieval_augmented_generation_rag",
+      "to": "amazon_s3",
+      "type": "uses",
+      "evidence_count": 22,
+      "source_diversity": 4,
+      "confidence": 0.45
+    },
+    {
+      "from": "retrieval_augmented_generation_rag",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 49,
+      "source_diversity": 5,
+      "confidence": 0.78
+    },
+    {
+      "from": "security",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 5,
+      "confidence": 0.44
+    },
+    {
+      "from": "security",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 16,
+      "source_diversity": 3,
+      "confidence": 0.34
+    },
+    {
+      "from": "security",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 5,
+      "confidence": 0.37
+    },
+    {
+      "from": "security",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 13,
+      "source_diversity": 5,
+      "confidence": 0.43
+    },
+    {
+      "from": "security",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "security",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 4,
+      "confidence": 0.34
+    },
+    {
+      "from": "security",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 20,
+      "source_diversity": 5,
+      "confidence": 0.49
+    },
+    {
+      "from": "security",
+      "to": "aws_secrets_manager",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 5,
+      "confidence": 0.38
+    },
+    {
+      "from": "security",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "security",
+      "to": "cross_region_inference",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "security",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "security",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 22,
+      "source_diversity": 5,
+      "confidence": 0.51
+    },
+    {
+      "from": "security",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "security",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_aurora",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_bedrock_knowledge_base",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "asynchronous_processing",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "circuit_breaker",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "semantic_retrieval",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 2,
+      "confidence": 0.13
+    },
+    {
+      "from": "serverless",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 11,
+      "source_diversity": 5,
+      "confidence": 0.41
+    },
+    {
+      "from": "serverless",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 16,
+      "source_diversity": 3,
+      "confidence": 0.34
+    },
+    {
+      "from": "serverless",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 11,
+      "source_diversity": 5,
+      "confidence": 0.41
+    },
+    {
+      "from": "serverless",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 5,
+      "confidence": 0.44
+    },
+    {
+      "from": "serverless",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 4,
+      "confidence": 0.32
+    },
+    {
+      "from": "serverless",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 4,
+      "confidence": 0.32
+    },
+    {
+      "from": "serverless",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 21,
+      "source_diversity": 5,
+      "confidence": 0.5
+    },
+    {
+      "from": "serverless",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 3,
+      "confidence": 0.26
+    },
+    {
+      "from": "serverless",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "serverless",
+      "to": "rest_api",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "serverless",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 23,
+      "source_diversity": 5,
+      "confidence": 0.52
+    },
+    {
+      "from": "serverless",
+      "to": "step_functions_workflow",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "serverless",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "serverless",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "serverless_architecture",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "serverless_architecture",
+      "to": "amazon_cloudwatch",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "serverless_architecture",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "amazon_bedrock_agentcore",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "amazon_bedrock_agentcore_agent_runtime",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "amazon_bedrock_agentcore_user",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "amazon_bedrock_knowledge_bases",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "aws_agent_squad",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "aws_fargate",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "session_memory",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 1,
+      "source_diversity": 1,
+      "confidence": 0.07
+    },
+    {
+      "from": "step_functions_workflow",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 2,
+      "confidence": 0.16
+    },
+    {
+      "from": "step_functions_workflow",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 2,
+      "confidence": 0.18
+    },
+    {
+      "from": "step_functions_workflow",
+      "to": "amazon_ecs",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "step_functions_workflow",
+      "to": "amazon_eventbridge",
+      "type": "uses",
+      "evidence_count": 3,
+      "source_diversity": 2,
+      "confidence": 0.15
+    },
+    {
+      "from": "step_functions_workflow",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 5,
+      "source_diversity": 2,
+      "confidence": 0.17
+    },
+    {
+      "from": "step_functions_workflow",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 2,
+      "confidence": 0.18
+    },
+    {
+      "from": "troubleshooting",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "troubleshooting",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 11,
+      "source_diversity": 3,
+      "confidence": 0.29
+    },
+    {
+      "from": "troubleshooting",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 4,
+      "confidence": 0.32
+    },
+    {
+      "from": "troubleshooting",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "troubleshooting",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "troubleshooting",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "troubleshooting",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 8,
+      "source_diversity": 4,
+      "confidence": 0.32
+    },
+    {
+      "from": "troubleshooting",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "troubleshooting",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "troubleshooting",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "troubleshooting",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "troubleshooting",
+      "to": "response_streaming",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "troubleshooting",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 12,
+      "source_diversity": 4,
+      "confidence": 0.36
+    },
+    {
+      "from": "troubleshooting",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 5,
+      "source_diversity": 3,
+      "confidence": 0.23
+    },
+    {
+      "from": "validation",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "validation",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 15,
+      "source_diversity": 3,
+      "confidence": 0.33
+    },
+    {
+      "from": "validation",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 5,
+      "confidence": 0.4
+    },
+    {
+      "from": "validation",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 5,
+      "confidence": 0.36
+    },
+    {
+      "from": "validation",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "validation",
+      "to": "amazon_sagemaker_ai",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "validation",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 5,
+      "confidence": 0.44
+    },
+    {
+      "from": "validation",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "validation",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "validation",
+      "to": "ci_cd_pipeline",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 4,
+      "confidence": 0.27
+    },
+    {
+      "from": "validation",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "validation",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "validation",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 17,
+      "source_diversity": 5,
+      "confidence": 0.47
+    },
+    {
+      "from": "validation",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 12,
+      "source_diversity": 3,
+      "confidence": 0.3
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 12,
+      "source_diversity": 3,
+      "confidence": 0.3
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_bedrock_knowledge_bases",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 15,
+      "source_diversity": 4,
+      "confidence": 0.39
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 15,
+      "source_diversity": 4,
+      "confidence": 0.39
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "vector_search",
+      "to": "amazon_s3",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 4,
+      "confidence": 0.3
+    },
+    {
+      "from": "vector_search",
+      "to": "api_gateway_lambda",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "vector_search",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 12,
+      "source_diversity": 4,
+      "confidence": 0.36
+    },
+    {
+      "from": "vector_search",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 12,
+      "source_diversity": 4,
+      "confidence": 0.36
+    },
+    {
+      "from": "vector_search",
+      "to": "aws_step_functions",
+      "type": "implemented_by",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "vector_search",
+      "to": "batch_processing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "vector_search",
+      "to": "caching",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "vector_search",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 15,
+      "source_diversity": 4,
+      "confidence": 0.39
+    },
+    {
+      "from": "vector_search",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 15,
+      "source_diversity": 4,
+      "confidence": 0.39
+    },
+    {
+      "from": "vector_search",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 3,
+      "confidence": 0.2
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_api_gateway",
+      "type": "implemented_by",
+      "evidence_count": 9,
+      "source_diversity": 5,
+      "confidence": 0.39
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_bedrock",
+      "type": "implemented_by",
+      "evidence_count": 10,
+      "source_diversity": 3,
+      "confidence": 0.28
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_cloudwatch",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 5,
+      "confidence": 0.35
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_comprehend",
+      "type": "implemented_by",
+      "evidence_count": 5,
+      "source_diversity": 4,
+      "confidence": 0.29
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_dynamodb",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 5,
+      "confidence": 0.37
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_opensearch_service",
+      "type": "implemented_by",
+      "evidence_count": 14,
+      "source_diversity": 5,
+      "confidence": 0.44
+    },
+    {
+      "from": "vector_store",
+      "to": "amazon_s3",
+      "type": "implemented_by",
+      "evidence_count": 7,
+      "source_diversity": 4,
+      "confidence": 0.31
+    },
+    {
+      "from": "vector_store",
+      "to": "aws_lambda",
+      "type": "implemented_by",
+      "evidence_count": 15,
+      "source_diversity": 5,
+      "confidence": 0.45
+    },
+    {
+      "from": "vector_store",
+      "to": "batch_processing",
+      "type": "realized_as",
+      "evidence_count": 2,
+      "source_diversity": 2,
+      "confidence": 0.14
+    },
+    {
+      "from": "vector_store",
+      "to": "event_driven_architecture",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "vector_store",
+      "to": "model_routing",
+      "type": "realized_as",
+      "evidence_count": 4,
+      "source_diversity": 4,
+      "confidence": 0.28
+    },
+    {
+      "from": "vector_store",
+      "to": "retrieval_augmented_generation_rag",
+      "type": "realized_as",
+      "evidence_count": 16,
+      "source_diversity": 5,
+      "confidence": 0.46
+    },
+    {
+      "from": "vector_store",
+      "to": "vector_search",
+      "type": "realized_as",
+      "evidence_count": 10,
+      "source_diversity": 4,
+      "confidence": 0.34
+    },
+    {
+      "from": "vector_store",
+      "to": "websocket_api",
+      "type": "realized_as",
+      "evidence_count": 3,
+      "source_diversity": 3,
+      "confidence": 0.21
+    },
+    {
+      "from": "websocket_api",
+      "to": "amazon_api_gateway",
+      "type": "uses",
+      "evidence_count": 11,
+      "source_diversity": 3,
+      "confidence": 0.29
+    },
+    {
+      "from": "websocket_api",
+      "to": "amazon_bedrock",
+      "type": "uses",
+      "evidence_count": 7,
+      "source_diversity": 3,
+      "confidence": 0.25
+    },
+    {
+      "from": "websocket_api",
+      "to": "amazon_dynamodb",
+      "type": "uses",
+      "evidence_count": 4,
+      "source_diversity": 3,
+      "confidence": 0.22
+    },
+    {
+      "from": "websocket_api",
+      "to": "amazon_opensearch_service",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "websocket_api",
+      "to": "aws_lambda",
+      "type": "uses",
+      "evidence_count": 11,
+      "source_diversity": 3,
+      "confidence": 0.29
+    },
+    {
+      "from": "websocket_api",
+      "to": "aws_step_functions",
+      "type": "uses",
+      "evidence_count": 6,
+      "source_diversity": 3,
+      "confidence": 0.24
+    },
+    {
+      "from": "websocket_api",
+      "to": "rest_api",
+      "confidence": 0.85,
+      "evidence_count": 5,
+      "source_diversity": 2,
+      "shared_components": [
+        "AWS Lambda",
+        "AWS Step Functions",
+        "Amazon API Gateway",
+        "Amazon Bedrock",
+        "Amazon DynamoDB"
+      ],
+      "shared_sources": [
+        "AIP-C01-part2.md",
+        "AIP-C01.md"
+      ],
+      "shared_contexts": [
+        "compliance",
+        "retrieval augmented generation (RAG)"
+      ],
+      "type": "contrasts_with"
+    },
+    {
+      "from": "websocket_api",
+      "to": "rest_api",
+      "confidence": 0.85,
+      "evidence_count": 5,
+      "source_diversity": 2,
+      "shared_components": [
+        "AWS Lambda",
+        "AWS Step Functions",
+        "Amazon API Gateway",
+        "Amazon Bedrock",
+        "Amazon DynamoDB"
+      ],
+      "shared_sources": [
+        "AIP-C01-part2.md",
+        "AIP-C01.md"
+      ],
+      "shared_contexts": [
+        "compliance",
+        "retrieval augmented generation (RAG)"
+      ],
+      "type": "tradeoff",
+      "dimensions": {
+        "real_time": "websocket_api",
+        "bidirectional": "websocket_api",
+        "simplicity": "rest_api",
+        "request_response": "rest_api"
+      },
+      "recommended_usage": {
+        "websocket_api": [
+          "Use when the client needs a persistent connection for real-time or bidirectional updates.",
+          "Prefer when low-latency incremental delivery matters more than stateless simplicity."
+        ],
+        "rest_api": [
+          "Use for synchronous stateless request-response inference and standard API integrations.",
+          "Prefer when implementation simplicity and broad client compatibility matter most."
+        ]
+      }
+    }
+  ]
+}

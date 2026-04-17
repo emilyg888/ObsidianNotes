@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --color-concept: #3b82f6;
+  --color-component: #22c55e;
+  --color-pattern: #f97316;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.graph-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #e2e8f0;
+  z-index: 50;
+  max-width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
