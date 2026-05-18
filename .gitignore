@@ -1,9 +1,17 @@
 .DS_Store
 __pycache__/
 *.pyc
+*.pyo
 
 **/.obsidian/workspace.json
 Notes/.obsidian/
+agents/.venv/
+.venv/
+dashboard/node_modules/
+dashboard/.DS_Store
+agents/.DS_Store
+Notes/.DS_Store
+research/.DS_Store
 
 Notes/concept_embeddings.npy
 Notes/qwen_batch_payloads.jsonl
